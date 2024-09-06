@@ -12,7 +12,7 @@ def montage_url(*args):
 
 def get_token():
     """
-    获取token
+    获取token的公共方法
     :return: token
     """
     return 'cad20bd8-76f1-43f4-a34c-2286d77a4f04'
