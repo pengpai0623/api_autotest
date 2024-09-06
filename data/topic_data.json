@@ -1,0 +1,61 @@
+{
+	"test_get_topics": [
+		{
+			"page": 1,
+			"tab": "ask",
+			"limit": 1,
+			"mdrender": "False"
+		},
+		{
+			"page": 1,
+			"tab": "share",
+			"limit": 1,
+			"mdrender": "False"
+		},
+		{
+			"page": 1,
+			"tab": "job",
+			"limit": 1,
+			"mdrender": "False"
+		}
+	],
+	"test_get_abnormal_topics": [
+		{
+			"page": 1,
+			"tab": "ask",
+			"limit": 1,
+			"mdrender": "False"
+		},
+		{
+			"page": 1,
+			"tab": "share",
+			"limit": 1,
+			"mdrender": "False"
+		},
+		{
+			"page": 1,
+			"tab": "job",
+			"limit": 1,
+			"mdrender": "False"
+		}
+	],
+	"test_add_topic": [
+		{
+			"accesstoken": 1,
+			"title": "ask",
+			"tab": 1,
+			"content": "False"
+		},
+		{
+			"accesstoken": 1,
+			"title": "ask",
+			"tab": 1,
+			"content": "False"
+		},
+		{
+			"accesstoken": 1,
+			"title": "ask",
+			"tab": 1,
+			"content": "False"
+		}]
+}

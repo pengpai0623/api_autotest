@@ -1,0 +1,35 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 06 18:04:26 CST 2024","Fri Sep 06 18:04:26 CST 2024","765","testcases","test_topics","Test_topics","","","test_get_topics[topic_basic_info2]","
+        用例描述位置：
+        1，获取page == 1、tab == ask/share/job、limit == 1、mdrender == false的信息
+        2，并进行响应内容验证
+        "
+"passed","Fri Sep 06 18:04:21 CST 2024","Fri Sep 06 18:04:22 CST 2024","913","testcases","test_abnormal_topics","Test_abnormal_topics","","","test_get_abnormal_tab_topics[ask1]","
+        用例描述位置：
+        1，tab为非指定类型的响应情况
+        2，并进行响应内容验证
+        "
+"passed","Fri Sep 06 18:04:26 CST 2024","Fri Sep 06 18:04:27 CST 2024","769","testcases","test_topics","Test_topics","","","test_add_topic[https://cnodejs.org/api/v1/topics]",""
+"passed","Fri Sep 06 18:04:25 CST 2024","Fri Sep 06 18:04:26 CST 2024","760","testcases","test_topics","Test_topics","","","test_get_topics[topic_basic_info1]","
+        用例描述位置：
+        1，获取page == 1、tab == ask/share/job、limit == 1、mdrender == false的信息
+        2，并进行响应内容验证
+        "
+"skipped","Fri Sep 06 18:04:28 CST 2024","Fri Sep 06 18:04:29 CST 2024","755","testcases","test_topics","Test_topics","","","test_update_topic",""
+"passed","Fri Sep 06 18:04:24 CST 2024","Fri Sep 06 18:04:25 CST 2024","803","testcases","test_topics","Test_topics","","","test_get_topics[topic_basic_info0]","
+        用例描述位置：
+        1，获取page == 1、tab == ask/share/job、limit == 1、mdrender == false的信息
+        2，并进行响应内容验证
+        "
+"passed","Fri Sep 06 18:04:22 CST 2024","Fri Sep 06 18:04:23 CST 2024","902","testcases","test_abnormal_topics","Test_abnormal_topics","","","test_get_abnormal_tab_topics[share1]","
+        用例描述位置：
+        1，tab为非指定类型的响应情况
+        2，并进行响应内容验证
+        "
+"passed","Fri Sep 06 18:04:27 CST 2024","Fri Sep 06 18:04:28 CST 2024","772","testcases","test_topics","Test_topics","","","test_get_topic",""
+"passed","Fri Sep 06 18:04:23 CST 2024","Fri Sep 06 18:04:24 CST 2024","744","testcases","test_abnormal_topics","Test_abnormal_topics","","","test_get_abnormal_page_topics[ask]","
+        用例描述位置：
+        1，page类型为str异常情况验证
+        # 发现一个bug，当page为str类型时，也能访问数据
+        2，并进行响应内容验证
+        "

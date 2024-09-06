@@ -1,0 +1,109 @@
+{
+  "uid" : "d7da61d3640753ae",
+  "name" : "test_get_topic",
+  "fullName" : "testcases.test_topics.Test_topics#test_get_topic",
+  "historyId" : "17cb57aeecf5daf47510baf39185da97",
+  "time" : {
+    "start" : 1725617067599,
+    "stop" : 1725617068371,
+    "duration" : 772
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnode接口测试"
+  }, {
+    "name" : "story",
+    "value" : "查询话题接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_topics"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_topics"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-H65PT011"
+  }, {
+    "name" : "thread",
+    "value" : "14096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_topics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "44af42d5a9a196b9",
+        "reportUrl" : "http://localhost:8080/job/api_Test/40/allure/#testresult/44af42d5a9a196b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725617067599,
+          "stop" : 1725617068371,
+          "duration" : 772
+        }
+      }, {
+        "uid" : "ac89d907e6076e27",
+        "reportUrl" : "http://localhost:8080/job/api_Test/39/allure/#testresult/ac89d907e6076e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725617067599,
+          "stop" : 1725617068371,
+          "duration" : 772
+        }
+      }, {
+        "uid" : "48c34806dc6fd3b2",
+        "reportUrl" : "http://localhost:8080/job/api_Test/36/allure/#testresult/48c34806dc6fd3b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725455510555,
+          "stop" : 1725455511323,
+          "duration" : 768
+        }
+      }, {
+        "uid" : "fee6e87e4f4408a4",
+        "reportUrl" : "http://localhost:8080/job/api_Test/35/allure/#testresult/fee6e87e4f4408a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725454805429,
+          "stop" : 1725454806168,
+          "duration" : 739
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d7da61d3640753ae.json",
+  "parameterValues" : [ ]
+}
