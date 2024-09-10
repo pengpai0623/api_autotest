@@ -1,0 +1,5 @@
+CRITICAL api_Test:test_topics.py:29 断言topic_basic_info类型为字典:True
+CRITICAL api_Test:test_topics.py:32 断言tab类型是否符合预期:True
+CRITICAL api_Test:test_topics.py:34 断言状态码为200:True
+CRITICAL api_Test:test_topics.py:36 断言响应存在success字段:True
+CRITICAL api_Test:test_topics.py:38 断言响应中success字段值为True:True

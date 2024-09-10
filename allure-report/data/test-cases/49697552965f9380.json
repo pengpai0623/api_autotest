@@ -1,0 +1,158 @@
+{
+  "uid" : "49697552965f9380",
+  "name" : "test_update_topic",
+  "fullName" : "testcases.test_topics.Test_topics#test_update_topic",
+  "historyId" : "14c2cb95a904540eb28a28709ab822db",
+  "time" : {
+    "start" : 1725982187316,
+    "stop" : 1725982188089,
+    "duration" : 773
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+  "statusTrace" : "self = <testcases.test_topics.Test_topics object at 0x000001AA5BA21AF0>\n\n    @allure.feature('cnode接口测试')\n    @pytest.mark.xfail('True', '更新话题接口暂未实现')\n    @allure.story('更新话题接口测试')\n    def test_update_topic(self):\n        url = business.montage_url('topics/update')\n        update_data = {\n            \"accesstoken\": business.get_token(),\n            \"topic_id\": '66a1e980fc5c3b4f1cee9d1b',\n            \"title\": \"new简单验证一下\",\n            \"tab\": \"dev\",\n            \"content\": \"new验证\"\n        }\n        r = requests.post(url=url, data=update_data)\n>       assert r.status_code == 200\nE       assert 403 == 200\nE        +  where 403 = <Response [403]>.status_code\n\ntestcases\\test_topics.py:88: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "更新话题接口测试"
+  }, {
+    "name" : "feature",
+    "value" : "cnode接口测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail('True', '更新话题接口暂未实现')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_topics"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_topics"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-H65PT011"
+  }, {
+    "name" : "thread",
+    "value" : "17036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_topics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "37f34b07d6286d3c",
+        "reportUrl" : "http://localhost:8080/job/api_Test/48/allure/#testresult/37f34b07d6286d3c",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725981759366,
+          "stop" : 1725981760161,
+          "duration" : 795
+        }
+      }, {
+        "uid" : "2ed1698182f30e42",
+        "reportUrl" : "http://localhost:8080/job/api_Test/47/allure/#testresult/2ed1698182f30e42",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725980796977,
+          "stop" : 1725980797721,
+          "duration" : 744
+        }
+      }, {
+        "uid" : "7a380936fa1e8e5e",
+        "reportUrl" : "http://localhost:8080/job/api_Test/46/allure/#testresult/7a380936fa1e8e5e",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725980796977,
+          "stop" : 1725980797721,
+          "duration" : 744
+        }
+      }, {
+        "uid" : "37c5d4ac778f9921",
+        "reportUrl" : "http://localhost:8080/job/api_Test/42/allure/#testresult/37c5d4ac778f9921",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725617068381,
+          "stop" : 1725617069136,
+          "duration" : 755
+        }
+      }, {
+        "uid" : "e451cd60f3ed4dc7",
+        "reportUrl" : "http://localhost:8080/job/api_Test/40/allure/#testresult/e451cd60f3ed4dc7",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725617068381,
+          "stop" : 1725617069136,
+          "duration" : 755
+        }
+      }, {
+        "uid" : "79edbd57361c3dfb",
+        "reportUrl" : "http://localhost:8080/job/api_Test/39/allure/#testresult/79edbd57361c3dfb",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725617068381,
+          "stop" : 1725617069136,
+          "duration" : 755
+        }
+      }, {
+        "uid" : "5940ae90ee2a2c34",
+        "reportUrl" : "http://localhost:8080/job/api_Test/36/allure/#testresult/5940ae90ee2a2c34",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725455511323,
+          "stop" : 1725455512090,
+          "duration" : 767
+        }
+      }, {
+        "uid" : "b3158ae093f219a9",
+        "reportUrl" : "http://localhost:8080/job/api_Test/35/allure/#testresult/b3158ae093f219a9",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL condition: True\n\nAssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+        "time" : {
+          "start" : 1725454806178,
+          "stop" : 1725454806941,
+          "duration" : 763
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail('True', '更新话题接口暂未实现')" ]
+  },
+  "source" : "49697552965f9380.json",
+  "parameterValues" : [ ]
+}
